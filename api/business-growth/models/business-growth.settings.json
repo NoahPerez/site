@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "business_growths",
+  "info": {
+    "name": "BusinessGrowth",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "helpText": {
+      "type": "string",
+      "required": true,
+      "default": "Numbers Are Talking"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Let’s Check Our Business Growth and Success Story"
+    },
+    "shortDesc": {
+      "type": "text",
+      "default": "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris Morbi accumsan ipsum velit. ",
+      "required": true
+    },
+    "businessCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.growth-card"
+    }
+  }
+}

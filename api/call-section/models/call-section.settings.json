@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "call_sections",
+  "info": {
+    "name": "CallSection",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "helpText": {
+      "type": "string",
+      "required": true,
+      "default": "Call Us 24/7"
+    },
+    "callBtn": {
+      "type": "string",
+      "required": true,
+      "default": "+1 (212) 255-5511"
+    },
+    "callBtnUrl": {
+      "type": "string",
+      "required": true,
+      "default": "tel:+1(212)255-5511"
+    },
+    "shortDesc": {
+      "type": "text",
+      "required": true,
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis tempor nunc ac sollicitudin Interdum et malesuada fames ac ante ipsum primis."
+    },
+    "contactBtn": {
+      "type": "string",
+      "required": true,
+      "default": "Contact Us"
+    },
+    "contactBtnUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/contact"
+    },
+    "callImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

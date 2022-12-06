@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "feedback_headers",
+  "info": {
+    "name": "FeedbackHeader"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "helpText": {
+      "type": "string",
+      "required": true,
+      "default": "Our Clients"
+    },
+    "headerText": {
+      "type": "string",
+      "required": true,
+      "default": "Our Clients Feedback"
+    }
+  }
+}

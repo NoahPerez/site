@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_headers",
+  "info": {
+    "name": "TeamHeader"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "helpText": {
+      "type": "string",
+      "required": true,
+      "default": "Our Team"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Our Team Members"
+    }
+  }
+}

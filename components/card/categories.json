@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_card_categories",
+  "info": {
+    "name": "Categories",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "categoryText": {
+      "type": "string",
+      "required": true
+    },
+    "categoryUrl": {
+      "type": "string",
+      "required": true
+    },
+    "categorySubText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

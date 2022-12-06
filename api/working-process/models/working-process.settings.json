@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "working_processes",
+  "info": {
+    "name": "WorkingProcess",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "helpText": {
+      "type": "string",
+      "required": true,
+      "default": "Our Working Process"
+    },
+    "headerText": {
+      "type": "string",
+      "required": true,
+      "default": "How Our Services Will Help You to Grow Your Business"
+    },
+    "workingCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.process-card"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "experiences",
+  "info": {
+    "name": "Experience",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "helpText": {
+      "type": "string",
+      "required": true,
+      "default": "15 Years of Experience"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Right Partner for Software Innovation"
+    },
+    "shortDesc": {
+      "type": "text",
+      "required": true,
+      "default": "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit nam nec tellus a odio tincidunt auctor."
+    },
+    "experienceCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.common-card"
+    },
+    "images": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "subImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "imgTitle": {
+      "type": "string",
+      "required": true,
+      "default": "4.5k"
+    },
+    "subText": {
+      "type": "string",
+      "required": true,
+      "default": "Satisfied Clients"
+    }
+  }
+}

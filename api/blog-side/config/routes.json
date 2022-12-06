@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/blog-side",
+      "handler": "blog-side.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/blog-side",
+      "handler": "blog-side.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/blog-side",
+      "handler": "blog-side.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

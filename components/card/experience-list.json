@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_card_experience_lists",
+  "info": {
+    "name": "ExperienceList",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

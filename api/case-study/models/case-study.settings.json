@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies",
+  "info": {
+    "name": "CaseStudies",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headerTitle": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "headerTitle"
+    },
+    "images": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "tagOne": {
+      "type": "string",
+      "required": true
+    },
+    "tagTwo": {
+      "type": "string",
+      "required": true
+    },
+    "readBtn": {
+      "type": "string",
+      "required": true
+    },
+    "detailsText": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

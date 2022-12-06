@@ -1,0 +1,69 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "name": "Footer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Newsletter"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "shortDese1": {
+      "type": "string",
+      "required": true,
+      "default": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auct.Aenean, lorem quis bibendum auct. Aenean sollicitudin lorem."
+    },
+    "helpText": {
+      "type": "string",
+      "required": true,
+      "default": "Talk to Our Support"
+    },
+    "talkBtn": {
+      "type": "string",
+      "required": true,
+      "default": "+1 002-123-4567"
+    },
+    "talkBtnUrl": {
+      "type": "string",
+      "required": true,
+      "default": "tel:+1002-123-4567"
+    },
+    "shortDesc2": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus molestie molestie. Phasellus ac rutrum massa, et volutpat nisl. Fusce ultrices suscipit nisl."
+    },
+    "copyrightText": {
+      "type": "string",
+      "required": true,
+      "default": "Copyright ©2021 Texa. All Rights Reserved by"
+    },
+    "copyrightBtn": {
+      "type": "string",
+      "required": true,
+      "default": "HiBootstrap"
+    },
+    "copyrightBtnUrl": {
+      "type": "string",
+      "required": true,
+      "default": "https://hibootstrap.com/"
+    }
+  }
+}

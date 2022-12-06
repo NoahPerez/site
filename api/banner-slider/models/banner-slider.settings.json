@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banner_sliders",
+  "info": {
+    "name": "Banner-Slider",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "helpText": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "bannerImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "shortDce": {
+      "type": "string",
+      "required": true,
+      "default": " Aenean Sollicitudin, Lorem quis Bibendum auctor, nisi elit consequat ipsum,                                          nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet "
+    },
+    "contactBtn": {
+      "type": "string",
+      "default": "Get A Quote"
+    },
+    "contactBtnUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/contact"
+    },
+    "learnBtn": {
+      "type": "string",
+      "required": true,
+      "default": "Learn More"
+    },
+    "learnBtnUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/about"
+    }
+  }
+}

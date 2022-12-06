@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/feedback-header",
+      "handler": "feedback-header.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/feedback-header",
+      "handler": "feedback-header.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/feedback-header",
+      "handler": "feedback-header.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

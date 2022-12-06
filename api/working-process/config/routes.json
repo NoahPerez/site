@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/working-process",
+      "handler": "working-process.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/working-process",
+      "handler": "working-process.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/working-process",
+      "handler": "working-process.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "case_side_bars",
+  "info": {
+    "name": "CaseSideBar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titleOne": {
+      "type": "string",
+      "default": "Recent Project",
+      "required": true
+    },
+    "titleTwo": {
+      "type": "string",
+      "required": true,
+      "default": "Tag Cloud"
+    },
+    "titleThree": {
+      "type": "string",
+      "required": true,
+      "default": "Gallery"
+    },
+    "titleFour": {
+      "type": "string",
+      "required": true,
+      "default": "Archive"
+    },
+    "caseCategories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.categories-list"
+    },
+    "gallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.gallery-card"
+    },
+    "archiveList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.categories"
+    }
+  }
+}

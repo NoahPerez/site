@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/call-section",
+      "handler": "call-section.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/call-section",
+      "handler": "call-section.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/call-section",
+      "handler": "call-section.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

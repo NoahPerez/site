@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_card_process_cards",
+  "info": {
+    "name": "ProcessCard",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "flatIcon": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortDesc": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

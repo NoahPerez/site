@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "create_websites",
+  "info": {
+    "name": "CreateWebsite"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "helpText": {
+      "type": "string",
+      "required": true,
+      "default": "We Carry More Than Just Good Coding Skills"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Let's Build Your Website!"
+    },
+    "contactBtn": {
+      "type": "string",
+      "required": true,
+      "default": "Contact Us "
+    },
+    "contactBtnUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/contact"
+    },
+    "images": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "subText": {
+      "type": "string",
+      "required": true,
+      "default": "Watch Our Intro Video"
+    },
+    "headerText": {
+      "type": "string",
+      "required": true,
+      "default": "Perfect Solution for IT Services!"
+    }
+  }
+}

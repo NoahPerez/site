@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "securities",
+  "info": {
+    "name": "Security"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "helpText": {
+      "type": "string",
+      "required": true,
+      "default": "IT Security & Computing"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Searching for a Solution! We Provide Truly Prominent IT Solutions"
+    },
+    "securityCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.common-card"
+    }
+  }
+}

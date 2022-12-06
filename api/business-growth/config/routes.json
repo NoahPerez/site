@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/business-growth",
+      "handler": "business-growth.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/business-growth",
+      "handler": "business-growth.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/business-growth",
+      "handler": "business-growth.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

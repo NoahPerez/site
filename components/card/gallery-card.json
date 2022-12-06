@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_card_gallery_cards",
+  "info": {
+    "name": "GalleryCard",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "imgUrl": {
+      "type": "string",
+      "required": true,
+      "default": "/blog-details"
+    }
+  }
+}

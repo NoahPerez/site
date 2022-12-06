@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_card_growth_cards",
+  "info": {
+    "name": "GrowthCard",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

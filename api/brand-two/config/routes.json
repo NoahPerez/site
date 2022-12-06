@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/brand-twos",
+      "handler": "brand-two.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/brand-twos/count",
+      "handler": "brand-two.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/brand-twos/:id",
+      "handler": "brand-two.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/brand-twos",
+      "handler": "brand-two.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/brand-twos/:id",
+      "handler": "brand-two.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/brand-twos/:id",
+      "handler": "brand-two.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

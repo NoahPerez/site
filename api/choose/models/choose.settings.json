@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "chooses",
+  "info": {
+    "name": "Choose",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "helpText": {
+      "type": "string",
+      "required": true,
+      "default": "Why Choose Us"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "We Provide Truly Prominent IT Solutions."
+    },
+    "shortDesc": {
+      "type": "text",
+      "required": true,
+      "default": "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum auctor a ornare odio."
+    },
+    "chooseCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.common-card"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

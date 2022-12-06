@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/service-side",
+      "handler": "service-side.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/service-side",
+      "handler": "service-side.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/service-side",
+      "handler": "service-side.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

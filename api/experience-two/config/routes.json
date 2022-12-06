@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/experience-two",
+      "handler": "experience-two.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/experience-two",
+      "handler": "experience-two.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/experience-two",
+      "handler": "experience-two.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

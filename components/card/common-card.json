@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_card_common_cards",
+  "info": {
+    "name": "CommonCard",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortDesc": {
+      "type": "text"
+    }
+  }
+}

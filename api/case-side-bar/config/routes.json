@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/case-side-bar",
+      "handler": "case-side-bar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/case-side-bar",
+      "handler": "case-side-bar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/case-side-bar",
+      "handler": "case-side-bar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

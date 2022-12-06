@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "terms_conditions",
+  "info": {
+    "name": "TermsCondition"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "termsContent": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

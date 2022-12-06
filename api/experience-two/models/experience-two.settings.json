@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "experience_twos",
+  "info": {
+    "name": "ExperienceTwo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "helpText": {
+      "type": "string",
+      "required": true,
+      "default": "15 Years of Experience"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Right Partner for Software Innovation"
+    },
+    "shortDesc1": {
+      "type": "text",
+      "required": true,
+      "default": "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet."
+    },
+    "shortDesc2": {
+      "type": "text",
+      "required": true,
+      "default": "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit."
+    },
+    "experienceList1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.experience-list"
+    },
+    "experienceList2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.experience-list"
+    },
+    "experimg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "subText": {
+      "type": "string",
+      "required": true,
+      "default": "Watch Our Intro Video"
+    },
+    "headerText": {
+      "type": "string",
+      "required": true,
+      "default": "Perfect Solution for IT Services!"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "technologies",
+  "info": {
+    "name": "Technology",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "helpText": {
+      "type": "string",
+      "required": true,
+      "default": "Technology Index"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "We Deliver Our Best Solution With The Goal of Trusting"
+    },
+    "technologyCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.technology-card"
+    }
+  }
+}

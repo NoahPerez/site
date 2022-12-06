@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_headers",
+  "info": {
+    "name": "BlogHeader"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "helpText": {
+      "type": "string",
+      "required": true,
+      "default": "Latest Blog"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Let’s Check Some Latest Blog"
+    }
+  }
+}

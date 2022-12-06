@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "case_headers",
+  "info": {
+    "name": "CaseHeader"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "helpText": {
+      "type": "string",
+      "required": true,
+      "default": "Case Study"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Introduce Our Projects and Check Recent Work"
+    }
+  }
+}

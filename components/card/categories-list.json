@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_card_categories_lists",
+  "info": {
+    "name": "CategoriesList",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "textName": {
+      "type": "string",
+      "required": true
+    },
+    "textNameUrl": {
+      "type": "string"
+    }
+  }
+}

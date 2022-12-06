@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "top_headers",
+  "info": {
+    "name": "TopHeader",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Support By :"
+    },
+    "callBtn": {
+      "type": "string",
+      "required": true,
+      "default": "+1 (212) 255-5511"
+    },
+    "callBtnUrl": {
+      "type": "string",
+      "required": true,
+      "default": "tel:+1(212)-255-5511"
+    },
+    "socialLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.social-link"
+    }
+  }
+}
